@@ -5,7 +5,7 @@
 // const PORT = 5000;
 
 // // Middleware
-// app.use(cors());
+// app.use(cors({origin:'https://frontend-azure0987-dthjdabte2gkgsgm.canadacentral-01.azurewebsites.net'));
 // app.use(express.json());
 
 // // Demo Cart Data
