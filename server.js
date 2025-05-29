@@ -26,7 +26,7 @@
 const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 3000; // Use process.env.PORT
-
+app.use(cors({origin:'https://frontend-azure0987-dthjdabte2gkgsgm.canadacentral-01.azurewebsites.net'));
 app.get("/", (req, res) => {
   res.send("Node.js is running on Azure!");
 });
