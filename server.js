@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000;
 
 
 app.use(cors({
-  origin: 'https://frontend-azure0987-dthjdabte2gkgsgm.canadacentral-01.azurewebsites.net'
+  origin: 'https://delightful-grass-03234ef00.6.azurestaticapps.net'
 }));
 
 app.get("/", (req, res) => {
